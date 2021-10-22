@@ -1,0 +1,14 @@
+-- title: To show data from particular table  
+SELECT <column a>, <column b>   
+from  <table name>
+
+
+-- title: To show data from particular table, with specific filter
+SELECT <column a>, <column b>  from  <table name>
+where <column name >  = '<something>'
+
+-- title: To show data from particular table, with aggregate (grouping)
+SELECT <column a> , count(<column b >)  
+from  <table name>
+where <column a/b >  = '<something>'
+group by  <column a>
